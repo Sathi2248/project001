@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container_page .nav_box .logo{
+    /* width: 400px; */
+    height: 100px;
+    /* background-color: antiquewhite; */
+}
+.container_page .nav_box .logo img {
+    position: fixed;
+    left:60px;
+    top: 25px;
+}
+.container_page .nav_box .logo span {
+position: fixed;
+left: 200px;
+top: 35px;
+font-size:40px ;
+color: rgb(190, 101, 28);
+font-family: 'Gulzar', serif;
+font-family: 'Roboto Slab', serif;
+}
+@media screen and (max-width:830px){
+    .container_page .nav_box .logo img {
+      width: 50px;
+      left: 20px;
+      top: 18px;
+    }
+    .container_page .nav_box .logo span{
+left: 84px;
+top: 25px;
+font-size: 22px;
+
+    }
+}
+.container_page .nav_box .nav .register_login{
+  float: right;
+margin: 55px 10px;
+    
+}
+.container_page .nav_box .nav .register_login ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
+    }
+
+.container_page .nav_box .nav .register_login ul li{
+    margin-right: 50px;
+   list-style: none;
+}
+.container_page .nav_box .nav .register_login ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container_page .nav_box .nav .register_login ul li a:hover{
+    color: rgb(64, 59, 59);
+    background-color: rgb(254, 254, 254);
+}
+.container_page .nav_box .nav .register_login ul li a:active{
+    color: rgb(159, 97, 97);
+}
+.container_page .nav_box .nav .register_login .menu_bar{
+    font-size: 35px;
+    display: none;
+    margin-right: 20px;
+    position: absolute;
+    top: 25px;
+}
+
+
+@media screen and (max-width:830px){
+    .container_page .nav_box .nav .register_login {
+         margin-top: 33px;
+       
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .container_page .nav_box .nav .register_login .register , .login{
+        display: none;
+    }
+}
+
+@media  screen and (max-width:600px){
+    .container_page .nav_box .nav .register_login .menu_bar{
+        display: block;
+        
+    }
+}
+    
+
+
